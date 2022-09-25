@@ -1,11 +1,11 @@
-import { CSS3DObject } from '../tbw/libs/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js';
+import { CSS3DObject } from './tbw/libs/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js';
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener('DOMContentLoaded', () => {
   const start = async() => {
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: '../tbw/assets/targets/TBW_All2.mind',
+      imageTargetSrc: './tbw/assets/targets/TBW_All2.mind',
     });
     const {renderer, cssRenderer, scene, cssScene, camera} = mindarThree;
 
