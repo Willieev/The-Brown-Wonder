@@ -42,5 +42,8 @@ cssAnchor7.group.add(obj7);
       cssRenderer.render(cssScene, camera);
     });
   }
+
+  
+
   start();
 });
